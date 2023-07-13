@@ -11,7 +11,7 @@ const App = () => {
     const apiKey = import.meta.env.VITE_URL_API_KEY;
     const fetchData = async()=>{
         try{
-        const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=Kathmandu&appid=${apiKey}`)
+        const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=${apiKey}`)
         const data = await res.json();
         console.log(data)
         setData({
