@@ -38,6 +38,8 @@ const App = () => {
     <h1>ID:{data.Id}</h1>
     <h1>Mainn:{data.Main}</h1>
     <p>Temp:{data.Temp}</p>
+    <h1>I added a fork Button</h1>
+    <button>Fork</button>
 
     </div>
   )
