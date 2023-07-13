@@ -40,6 +40,7 @@ const App = () => {
     <p>Temp:{data.Temp}</p>
     <h1>I added a fork Button</h1>
     <button>Fork</button>
+    <h1>Hello I am from the side branch</h1>
 
     </div>
   )
